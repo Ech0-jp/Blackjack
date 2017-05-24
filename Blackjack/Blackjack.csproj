@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{401C7FB6-9C69-4C66-8C6C-B739C3AE84CF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Blackjack</RootNamespace>
+    <AssemblyName>Blackjack</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>87BF338723102D71220DE548A6A0B5315D656280</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Blackjack_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GameLobby.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameLobby.Designer.cs">
+      <DependentUpon>GameLobby.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateAccount.Designer.cs">
+      <DependentUpon>CreateAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetChips.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetChips.Designer.cs">
+      <DependentUpon>GetChips.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginMenu.Designer.cs">
+      <DependentUpon>LoginMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Options.Designer.cs">
+      <DependentUpon>Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserMenu.Designer.cs">
+      <DependentUpon>UserMenu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CreateAccount.resx">
+      <DependentUpon>CreateAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameLobby.resx">
+      <DependentUpon>GameLobby.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetChips.resx">
+      <DependentUpon>GetChips.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginMenu.resx">
+      <DependentUpon>LoginMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options.resx">
+      <DependentUpon>Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserMenu.resx">
+      <DependentUpon>UserMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Blackjack_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_c01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_c02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_c03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_c04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_c05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_c06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_c07.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_c08.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_c09.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_c10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_c11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_c12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_c13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_d01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_d02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_d03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_d04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_d05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_d06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_d07.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_d08.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_d09.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_d10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_d11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_d12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_d13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_h01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_h02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_h03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_h04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_h05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_h06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_h07.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_h08.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_h09.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_h10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_h11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_h12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_h13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_s01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_s02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_s03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_s04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_s05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_s06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_s07.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_s08.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_s09.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_s10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_s11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_s12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cards_s13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_c01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_c02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_c03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_c04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_c05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_c06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_c07.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_c08.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_c09.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_c10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_c11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_c12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_c13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_d01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_d02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_d03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_d04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_d05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_d06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_d07.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_d08.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_d09.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_d10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_d11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_d12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_d13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_h01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_h02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_h03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_h04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_h05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_h06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_h07.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_h08.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_h09.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_h10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_h11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_h12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_h13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_s01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_s02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_s03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_s04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_s05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_s06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_s07.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_s08.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_s09.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_s10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_s11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_s12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardl_s13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnimeBack1deal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnimeBack1deal1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnimeBack1deal2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnimeBack2deal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnimeBack2deal1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnimeBack2deal2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnimeBack3deal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnimeBack3deal1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnimeBack3deal2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnimeMenu1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnimeMenu2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnimeMenu3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blackjack_tabledeal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blackjack_tabledeal1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blackjack_tabledeal2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

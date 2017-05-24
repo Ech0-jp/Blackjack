@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Premise of the Game:
+The basic premise of the game is that you want to have a hand value that is closer to 21 than that of the dealer, without going over 21.
+
+Values of the Cards:
+In blackjack, the cards are valued as follows:
+         An Ace can count as either 1 or 11, as explained below.
+         The cards from 2 through 9 are valued at their face value.
+         he 10, Jack, Queen, and King are all valued at 10.
+The suits of the cards do not have any meaning in the game. The value of a hand is simply the sum of the point counts of each card in the hand. For example, a hand containing (5,7,9) has the value of 21. The Ace can be counted as either 1 or 11. You need not specify which value the Ace has. It's assumed to always have the value that makes the best hand. An example will illustrate: Suppose that you have the beginning hand (Ace, 6). This hand can be either 7 or 17. If you stop there, it will be 17. Let's assume that you draw another card to the hand and now have (Ace, 6, 3). Your total hand is now 20, counting the Ace as 11. Let's backtrack and assume that you had instead drawn a third card which was an 8. The hand is now (Ace, 6, 8) which totals 15. Notice that now the Ace must be counted as only 1 to avoid going over 21.
+
+A hand that contains an Ace is called a "soft" total if the Ace can be counted as either 1 or 11 without the total going over 21. For example (Ace, 6) is a soft 17. The description stems from the fact that the player can always draw another card to a soft total with no danger of "busting" by going over 21. The hand (Ace,6,10) on the other hand is a "hard" 17, since now the Ace must be counted as only 1, again because counting it as 11 would make the hand go over 21.
+
+How the Dealer Plays His Hand
+
+The dealer must play his hand in a specific way, with no choices allowed. There are two popular rule variations that determine what total the dealer must draw to. In any given casino, you can tell which rule is in effect by looking at the blackjack tabletop. It should be clearly labeled with one of these rules:
+
+        "Dealer stands on all 17s": In this case, the dealer must continue to take cards ("hit") until his total is 17 or greater. An Ace in the dealer's hand is always counted as 11 if possible without the dealer going over 21. For example, (Ace,8) would be 19 and the dealer would stop drawing cards ("stand"). Also, (Ace,6) is 17 and again the dealer will stand. (Ace,5) is only 16, so the dealer would hit. He will continue to draw cards until the hand's value is 17 or more. For example, (Ace,5,7) is only 13 so he hits again. (Ace,5,7,5) makes 18 so he would stop ("stand") at that point.
+        "Dealer hits soft 17": Some casinos use this rule variation instead. This rule is identical except for what happens when the dealer has a soft total of 17. Hands such as (Ace,6), (Ace,5,Ace), and (Ace, 2, 4) are all examples of soft 17. The dealer hits these hands, and stands on soft 18 or higher, or hard 17 or higher. When this rule is used, the house advantage against the players is slightly increased.
+The dealer has no choices to make in the play of his hand. He must simply hit until he reaches at least 17 or busts by going over 21.
+
+What is a Blackjack, or a Natural?
+
+A blackjack, or natural, is a total of 21 in your first two cards. A blackjack is therefore an Ace and any ten-valued card, with the additional requirement that these be your first two cards. If you split a pair of Aces for example, and then draw a ten-valued card on one of the Aces, this is not a blackjack, but rather a total of 21. The distinction is important, because a winning blackjack pays the player odds of 3 to 2. A bet of $10 wins $15 if the player makes a blackjack. A player blackjack beats any dealer total other than blackjack, including a dealer's three or more card 21. If both a player and the dealer have blackjack, the hand is a tie or push.
+</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Getting Started:
+
+Starting a game: 
+	First, while you are in the Main Menu, you can look at the bottom right hand corner to see if you have any available chips. You must have over 0 chips to start playing.
+	One you have chips, select the "Join Lobby" option. This will take you to a lobby where you can start playing Blackjack.
+
+Purchasing more chips:
+	If you find that you are out of chips or are running low and want to get more, you can do so in two places. 1. In the main menu and 2. in the game lobby. To purchase chips in the main menu simply select the "Get more chips" option. To do this in the game lobby, select the "Cashier" in the bottom left hand corner of the screen , beside your chip count.
+	Once you are in the "Purchase chips" menu, simply select one of the 4 options at the top of the screen (100 chips for $10, 250 chips for 25$, 500 chips for $50, or 1000 chips for $100) then hit "Accept" at the bottom of the screen.
+
+Options - Customizing the way you play:
+	In the "Options" menu, you can customize 2 things; The deck you play with, and the background that gets presented to you. There are currently 2 decks of cards you can chose from (Traditional and anime themed), and 4 Backgrounds (Traditional and 3 anime themes).
+	These choices are account bound adn will change the way your game looks on all screens with backgrounds and playing cards.</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Hitting/Standing:
+
+The most common decision a player must make during the game is whether to draw another card to the hand ("hit"), or stop at the current total ("stand"). If you "hit" a card gets added to your hand and to the total of your hand if you go over 21, or "bust" the dealer will collect your bet. If you decide to "stand" then the dealer will display his cards and continue with his hand according to the rules.
+
+Doubling Down:
+
+Among the more profitable player options available is the choice to "double down". This can only be done with a two card hand, before another card has been drawn. Doubling down allows you to double your bet and receive one, and only one, additional card to the hand. A good example of a doubling opportunity is when you hold a total of 11, say a (6,5) against a dealer's upcard of 5. In this case, you have a good chance of winning the hand by drawing one additional card, so you might as well increase your bet in this advantageous situation.
+
+Splitting Pairs
+
+When you are dealt a matching pair of cards (remember, ignore the suits), you have the ability to split the hand into two separate hands, and play them independently. Let's say you are dealt a pair of eights for a total of sixteen. Sixteen is the worst possible player hand, since it is unlikely to win as is, but is very likely to bust if you draw to it. Here's a great chance to improve a bad situation.
+
+If you are playing a hand-held game, toss the cards face-up in front of your bet just like a double down. Then, in either type of game, place a matching bet beside the original bet in the circle. Note that you must bet the same amount on a split, unlike a double-down, where you are allowed to double for less. The dealer will separate the two cards, and treat them as two independent hands. Let's say you draw a 3 on the first 8, for a total of 11. Many casinos will allow you to double down on that hand total of 11 at this point. When this is allowed, the rule is called "Double after Split", predictably enough. Regardless, you can play the first hand to completion, at which point the dealer will deal a second card to the second hand, and you can begin making play decisions on it.</value>
+  </data>
+</root>

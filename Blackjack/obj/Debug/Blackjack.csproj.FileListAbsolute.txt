@@ -1,0 +1,49 @@
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Blackjack\Blackjack\bin\Debug\Blackjack.exe.config
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Blackjack\Blackjack\obj\Debug\Blackjack.LoginMenu.resources
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Blackjack\Blackjack\obj\Debug\Blackjack.Properties.Resources.resources
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Blackjack\Blackjack\obj\Debug\Blackjack.csproj.GenerateResource.Cache
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Blackjack\Blackjack\bin\Debug\Blackjack.exe
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Blackjack\Blackjack\bin\Debug\Blackjack.pdb
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Blackjack\Blackjack\obj\Debug\Blackjack.exe
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Blackjack\Blackjack\obj\Debug\Blackjack.pdb
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Blackjack\Blackjack\obj\Debug\Blackjack.CreateAccount.resources
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Blackjack\Blackjack\obj\Debug\Blackjack.UserMenu.resources
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Blackjack\Blackjack\obj\Debug\Blackjack.Options.resources
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Blackjack\Blackjack\obj\Debug\Blackjack.GetChips.resources
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Blackjack\Blackjack\obj\Debug\Blackjack.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Blackjack\Blackjack\obj\Debug\Blackjack.GameLobby.resources
+C:\Users\Andrew\Documents\Visual Studio 2012\Projects\Blackjack\Blackjack\obj\Debug\Blackjack.Help.resources
+C:\Users\Andrew\Dropbox\Blackjack\Blackjack\bin\Debug\Blackjack.exe.config
+C:\Users\Andrew\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.exe
+C:\Users\Andrew\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.pdb
+C:\Users\Andrew\Dropbox\Blackjack\Blackjack\bin\Debug\Blackjack.exe
+C:\Users\Andrew\Dropbox\Blackjack\Blackjack\bin\Debug\Blackjack.pdb
+C:\Users\Andrew\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.CreateAccount.resources
+C:\Users\Andrew\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.GameLobby.resources
+C:\Users\Andrew\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.GetChips.resources
+C:\Users\Andrew\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.Help.resources
+C:\Users\Andrew\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.LoginMenu.resources
+C:\Users\Andrew\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.Options.resources
+C:\Users\Andrew\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.Properties.Resources.resources
+C:\Users\Andrew\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.UserMenu.resources
+C:\Users\Andrew\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.csproj.GenerateResource.Cache
+C:\Users\graphic\Dropbox\Blackjack\Blackjack\bin\Debug\Blackjack.exe.config
+C:\Users\graphic\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.exe
+C:\Users\graphic\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.pdb
+C:\Users\graphic\Dropbox\Blackjack\Blackjack\bin\Debug\Blackjack.exe
+C:\Users\graphic\Dropbox\Blackjack\Blackjack\bin\Debug\Blackjack.pdb
+C:\Users\graphic\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.csprojResolveAssemblyReference.cache
+C:\Users\graphic\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.CreateAccount.resources
+C:\Users\graphic\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.GameLobby.resources
+C:\Users\graphic\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.GetChips.resources
+C:\Users\graphic\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.Help.resources
+C:\Users\graphic\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.LoginMenu.resources
+C:\Users\graphic\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.Options.resources
+C:\Users\graphic\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.Properties.Resources.resources
+C:\Users\graphic\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.UserMenu.resources
+C:\Users\graphic\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.csproj.GenerateResource.Cache
+C:\Users\graphic\Dropbox\Blackjack\Blackjack\bin\Debug\Blackjack.exe.manifest
+C:\Users\graphic\Dropbox\Blackjack\Blackjack\bin\Debug\Blackjack.application
+C:\Users\graphic\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.exe.manifest
+C:\Users\graphic\Dropbox\Blackjack\Blackjack\obj\Debug\Blackjack.application
